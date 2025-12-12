@@ -6,6 +6,8 @@
     <string>_notdef.glif</string>
     <key>A</key>
     <string>A_.glif</string>
+    <key>A.alt</key>
+    <string>A_.alt.glif</string>
     <key>AE</key>
     <string>A_E_.glif</string>
     <key>Aacute</key>
@@ -28,6 +30,8 @@
     <string>A_tilde.glif</string>
     <key>B</key>
     <string>B_.glif</string>
+    <key>B.alt</key>
+    <string>B_.alt.glif</string>
     <key>C</key>
     <string>C_.glif</string>
     <key>Cacute</key>
@@ -46,6 +50,8 @@
     <string>D_croat.glif</string>
     <key>E</key>
     <string>E_.glif</string>
+    <key>E.alt</key>
+    <string>E_.alt.glif</string>
     <key>Eacute</key>
     <string>E_acute.glif</string>
     <key>Ecaron</key>
@@ -70,6 +76,8 @@
     <string>E_uro.glif</string>
     <key>F</key>
     <string>F_.glif</string>
+    <key>F.alt</key>
+    <string>F_.alt.glif</string>
     <key>G</key>
     <string>G_.glif</string>
     <key>Gbreve</key>
@@ -106,6 +114,8 @@
     <string>J_.glif</string>
     <key>K</key>
     <string>K_.glif</string>
+    <key>K.alt</key>
+    <string>K_.alt.glif</string>
     <key>L</key>
     <string>L_.glif</string>
     <key>Lacute</key>
@@ -116,6 +126,8 @@
     <string>L_slash.glif</string>
     <key>M</key>
     <string>M_.glif</string>
+    <key>M.alt</key>
+    <string>M_.alt.glif</string>
     <key>M.opsz48</key>
     <string>M_.opsz48.glif</string>
     <key>N</key>
@@ -146,10 +158,16 @@
     <string>O_tilde.glif</string>
     <key>P</key>
     <string>P_.glif</string>
+    <key>P.alt</key>
+    <string>P_.alt.glif</string>
     <key>Q</key>
     <string>Q_.glif</string>
+    <key>Q.alt</key>
+    <string>Q_.alt.glif</string>
     <key>R</key>
     <string>R_.glif</string>
+    <key>R.alt</key>
+    <string>R_.alt.glif</string>
     <key>Racute</key>
     <string>R_acute.glif</string>
     <key>Rcaron</key>
@@ -194,6 +212,8 @@
     <string>V_.glif</string>
     <key>W</key>
     <string>W_.glif</string>
+    <key>W.alt</key>
+    <string>W_.alt.glif</string>
     <key>Wacute</key>
     <string>W_acute.glif</string>
     <key>Wcircumflex</key>
