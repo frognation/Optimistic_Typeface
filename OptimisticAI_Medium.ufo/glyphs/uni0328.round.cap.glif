@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0328.round.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-270" y="-240" type="qcurve"/>
+      <point x="-270" y="-133"/>
+      <point x="-94" y="29"/>
+      <point x="96" y="85" type="qcurve"/>
+      <point x="123" y="35" type="line"/>
+      <point x="9" y="-23"/>
+      <point x="-91" y="-139"/>
+      <point x="-91" y="-205" type="qcurve"/>
+      <point x="-91" y="-308"/>
+      <point x="31" y="-308" type="qcurve"/>
+      <point x="57" y="-308"/>
+      <point x="100" y="-302"/>
+      <point x="122" y="-297" type="qcurve"/>
+      <point x="122" y="-429" type="line"/>
+      <point x="94" y="-436"/>
+      <point x="29" y="-445"/>
+      <point x="-6" y="-445" type="qcurve"/>
+      <point x="-132" y="-445"/>
+      <point x="-270" y="-334"/>
+    </contour>
+  </outline>
+</glyph>

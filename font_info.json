@@ -1,0 +1,170 @@
+{
+  "names": {
+    "copyright": "Copyright 2025 Meta Platforms, Inc. All rights reserved. This font may not be altered in any way without prior permission. PixelFix Copyright 2025 Dalton Maag Ltd",
+    "family": "Optimistic AI Medium",
+    "subfamily": "Regular",
+    "uniqueID": "1.000;DAMA;OptimisticAI-Medium",
+    "fullName": "Optimistic AI Medium",
+    "version": "Version 1.000",
+    "postscriptName": "OptimisticAI-Medium",
+    "trademark": "Meta and Optimistic are trademarks of Meta Platforms, Inc.",
+    "manufacturer": "Dalton Maag Ltd",
+    "designer": "Dalton Maag Ltd",
+    "description": null,
+    "vendorURL": "http://www.daltonmaag.com/",
+    "designerURL": "http://www.daltonmaag.com/",
+    "license": null,
+    "licenseURL": null,
+    "compatibleFull": null,
+    "sampleText": null
+  },
+  "metrics": {
+    "unitsPerEm": 2000,
+    "ascender": 1955,
+    "descender": -554,
+    "lineGap": 0,
+    "typoAscender": 1400,
+    "typoDescender": -392,
+    "typoLineGap": 717,
+    "winAscent": 1955,
+    "winDescent": 554,
+    "capHeight": 1400,
+    "xHeight": 1014,
+    "underlinePosition": -142,
+    "underlineThickness": 136,
+    "italicAngle": 0.0
+  },
+  "os2": {
+    "weightClass": 500,
+    "widthClass": 5,
+    "fsType": 8,
+    "fsSelection": 64,
+    "vendorID": "DAMA",
+    "panose": {
+      "bFamilyType": 2,
+      "bSerifStyle": 11,
+      "bWeight": 5,
+      "bProportion": 3,
+      "bContrast": 3,
+      "bStrokeVariation": 2,
+      "bArmStyle": 2,
+      "bLetterForm": 2,
+      "bMidline": 2,
+      "bXHeight": 4
+    },
+    "ranges": {
+      "ulUnicodeRange1": 2684354671,
+      "ulUnicodeRange2": 1073741898,
+      "ulUnicodeRange3": 8,
+      "ulUnicodeRange4": 0,
+      "ulCodePageRange1": 147,
+      "ulCodePageRange2": 0
+    }
+  },
+  "counts": {
+    "glyphs": 452,
+    "kerningPairs": 10920,
+    "unicodeCodepoints": 374
+  },
+  "unicode": {
+    "min": "U+0000",
+    "max": "U+FEFF",
+    "sample": [
+      {
+        "codepoint": "U+0000",
+        "char": "",
+        "name": "UNNAMED"
+      },
+      {
+        "codepoint": "U+000D",
+        "char": "",
+        "name": "UNNAMED"
+      },
+      {
+        "codepoint": "U+0020",
+        "char": " ",
+        "name": "SPACE"
+      },
+      {
+        "codepoint": "U+0021",
+        "char": "!",
+        "name": "EXCLAMATION MARK"
+      },
+      {
+        "codepoint": "U+0022",
+        "char": "\"",
+        "name": "QUOTATION MARK"
+      },
+      {
+        "codepoint": "U+0023",
+        "char": "#",
+        "name": "NUMBER SIGN"
+      },
+      {
+        "codepoint": "U+0024",
+        "char": "$",
+        "name": "DOLLAR SIGN"
+      },
+      {
+        "codepoint": "U+0025",
+        "char": "%",
+        "name": "PERCENT SIGN"
+      },
+      {
+        "codepoint": "U+0026",
+        "char": "&",
+        "name": "AMPERSAND"
+      },
+      {
+        "codepoint": "U+0027",
+        "char": "'",
+        "name": "APOSTROPHE"
+      },
+      {
+        "codepoint": "U+0028",
+        "char": "(",
+        "name": "LEFT PARENTHESIS"
+      },
+      {
+        "codepoint": "U+0029",
+        "char": ")",
+        "name": "RIGHT PARENTHESIS"
+      },
+      {
+        "codepoint": "U+002A",
+        "char": "*",
+        "name": "ASTERISK"
+      },
+      {
+        "codepoint": "U+002B",
+        "char": "+",
+        "name": "PLUS SIGN"
+      },
+      {
+        "codepoint": "U+002C",
+        "char": ",",
+        "name": "COMMA"
+      }
+    ]
+  },
+  "features": {
+    "GSUB": [
+      "aalt",
+      "calt",
+      "ccmp",
+      "dnom",
+      "frac",
+      "liga",
+      "locl",
+      "numr",
+      "ordn",
+      "pnum",
+      "ss01",
+      "tnum"
+    ],
+    "GPOS": [
+      "kern",
+      "mark"
+    ]
+  }
+}
