@@ -1,0 +1,15 @@
+{
+glyphname = four.tnum;
+layers = (
+{
+.lastUpdate = 787511883.147;
+layerId = m001;
+shapes = (
+{
+ref = four;
+}
+);
+width = 1178;
+}
+);
+}

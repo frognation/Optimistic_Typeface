@@ -1,0 +1,15 @@
+{
+glyphname = three.tnum;
+layers = (
+{
+.lastUpdate = 787511883.156;
+layerId = m001;
+shapes = (
+{
+ref = three;
+}
+);
+width = 1194;
+}
+);
+}

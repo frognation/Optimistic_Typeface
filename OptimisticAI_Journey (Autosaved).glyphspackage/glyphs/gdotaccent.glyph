@@ -1,0 +1,20 @@
+{
+glyphname = gdotaccent;
+layers = (
+{
+.lastUpdate = 787511414.901;
+layerId = m001;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (572,0);
+ref = uni0307;
+}
+);
+width = 1148;
+}
+);
+unicode = 289;
+}

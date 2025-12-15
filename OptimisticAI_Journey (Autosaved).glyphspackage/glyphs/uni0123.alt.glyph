@@ -1,0 +1,19 @@
+{
+glyphname = uni0123.alt;
+layers = (
+{
+.lastUpdate = 787509404.249;
+layerId = m001;
+shapes = (
+{
+ref = g.alt;
+},
+{
+pos = (530,0);
+ref = uni0312;
+}
+);
+width = 1104;
+}
+);
+}

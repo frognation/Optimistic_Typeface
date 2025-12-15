@@ -1,0 +1,25 @@
+{
+export = 0;
+glyphname = onequarter;
+layers = (
+{
+.lastUpdate = 787511415.58;
+layerId = m001;
+shapes = (
+{
+ref = one.dnom;
+},
+{
+pos = (547,0);
+ref = fraction;
+},
+{
+pos = (857,0);
+ref = four.dnom;
+}
+);
+width = 1594;
+}
+);
+unicode = 188;
+}

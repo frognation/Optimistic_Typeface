@@ -1,0 +1,23 @@
+{
+glyphname = IJ_acutecomb;
+layers = (
+{
+.lastUpdate = 787509404.233;
+layerId = m001;
+shapes = (
+{
+ref = IJ;
+},
+{
+pos = (214,0);
+ref = acutecomb.cap;
+},
+{
+pos = (928,0);
+ref = acutecomb.cap;
+}
+);
+width = 1142;
+}
+);
+}

@@ -1,5 +1,5 @@
 {
-.appVersion = "3507";
+.appVersion = "3434";
 .formatVersion = 3;
 customParameters = (
 {
@@ -610,6 +610,8 @@ pos = -554;
 name = Regular;
 userData = {
 GSCornerRadius = 240;
+GSOffsetHorizontal = -26;
+GSOffsetVertical = -13;
 layerinfo.color = "0.5,0,0.5,0.7";
 };
 visible = 1;

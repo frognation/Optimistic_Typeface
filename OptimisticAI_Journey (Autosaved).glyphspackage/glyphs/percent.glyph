@@ -1,0 +1,24 @@
+{
+glyphname = percent;
+layers = (
+{
+.lastUpdate = 787511415.611;
+layerId = m001;
+shapes = (
+{
+ref = fraction;
+},
+{
+pos = (840,0);
+ref = zero.percent;
+},
+{
+pos = (0,735);
+ref = zero.percent;
+}
+);
+width = 310;
+}
+);
+unicode = 37;
+}

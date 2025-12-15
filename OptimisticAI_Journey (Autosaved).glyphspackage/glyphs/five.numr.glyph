@@ -1,0 +1,16 @@
+{
+glyphname = five.numr;
+layers = (
+{
+.lastUpdate = 787511883.15;
+layerId = m001;
+shapes = (
+{
+pos = (0,652);
+ref = five.dnom;
+}
+);
+width = 828;
+}
+);
+}

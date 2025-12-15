@@ -1,0 +1,20 @@
+{
+glyphname = Wdieresis;
+layers = (
+{
+.lastUpdate = 787509405.429;
+layerId = m001;
+shapes = (
+{
+ref = W;
+},
+{
+pos = (938,0);
+ref = uni0308.cap;
+}
+);
+width = 1874;
+}
+);
+unicode = 7812;
+}

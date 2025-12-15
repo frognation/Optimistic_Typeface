@@ -1,0 +1,20 @@
+{
+glyphname = Ntilde;
+layers = (
+{
+.lastUpdate = 787509404.23;
+layerId = m001;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (691,0);
+ref = tildecomb.cap;
+}
+);
+width = 1382;
+}
+);
+unicode = 209;
+}

@@ -1,0 +1,17 @@
+{
+glyphname = tilde;
+layers = (
+{
+.lastUpdate = 787511415.635;
+layerId = m001;
+shapes = (
+{
+pos = (409,0);
+ref = tildecomb;
+}
+);
+width = 817;
+}
+);
+unicode = 732;
+}

@@ -1,0 +1,19 @@
+{
+glyphname = atilde.alt;
+layers = (
+{
+.lastUpdate = 787511883.161;
+layerId = m001;
+shapes = (
+{
+ref = a.alt;
+},
+{
+pos = (590,0);
+ref = tildecomb;
+}
+);
+width = 1148;
+}
+);
+}

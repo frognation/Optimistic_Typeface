@@ -1,0 +1,19 @@
+{
+glyphname = aacute.alt;
+layers = (
+{
+.lastUpdate = 787511883.158;
+layerId = m001;
+shapes = (
+{
+ref = a.alt;
+},
+{
+pos = (590,0);
+ref = acutecomb;
+}
+);
+width = 1148;
+}
+);
+}

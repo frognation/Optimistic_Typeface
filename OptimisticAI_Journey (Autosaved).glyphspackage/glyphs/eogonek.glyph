@@ -1,0 +1,20 @@
+{
+glyphname = eogonek;
+layers = (
+{
+.lastUpdate = 787511414.89;
+layerId = m001;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (700,0);
+ref = uni0328.round;
+}
+);
+width = 1074;
+}
+);
+unicode = 281;
+}

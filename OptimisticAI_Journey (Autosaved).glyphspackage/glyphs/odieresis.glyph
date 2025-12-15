@@ -1,0 +1,20 @@
+{
+glyphname = odieresis;
+layers = (
+{
+.lastUpdate = 787511415.585;
+layerId = m001;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (557,0);
+ref = uni0308;
+}
+);
+width = 1114;
+}
+);
+unicode = 246;
+}

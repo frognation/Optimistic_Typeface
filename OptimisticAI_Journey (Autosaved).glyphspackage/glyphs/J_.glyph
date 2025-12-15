@@ -1,0 +1,85 @@
+{
+glyphname = J;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+attr = {
+strokeHeight = 198;
+strokeWidth = 212;
+};
+closed = 0;
+nodes = (
+(868,1400,ls),
+(868,460,ls),
+(868,201,o),
+(718,75,o),
+(514,75,cs),
+(318,75,o),
+(219,171,o),
+(138,369,cs)
+);
+}
+);
+width = 1082;
+},
+{
+associatedMasterId = m001;
+layerId = "6BD8CF17-160D-49E9-BCC5-BCB414BED02D";
+name = Stroke;
+shapes = (
+{
+attr = {
+strokeHeight = 198;
+strokeWidth = 212;
+};
+closed = 0;
+nodes = (
+(868,1400,ls),
+(868,460,ls),
+(868,201,o),
+(718,75,o),
+(514,75,cs),
+(318,75,o),
+(219,171,o),
+(138,369,cs)
+);
+}
+);
+visible = 1;
+width = 1082;
+},
+{
+associatedMasterId = m001;
+layerId = "CD3990ED-1DAF-457C-AF21-7B5EDA3964AB";
+name = Background;
+shapes = (
+{
+closed = 1;
+nodes = (
+(629,170,o),
+(507,170,qs),
+(404,170,o),
+(289,277,o),
+(270,408,q),
+(43,408,l),
+(73,183,o),
+(306,-23,o),
+(508,-23,qs),
+(737,-23,o),
+(979,232,o),
+(979,469,qs),
+(979,1400,l),
+(756,1400,l),
+(756,466,ls),
+(756,321,o)
+);
+}
+);
+visible = 1;
+width = 1082;
+}
+);
+unicode = 74;
+}

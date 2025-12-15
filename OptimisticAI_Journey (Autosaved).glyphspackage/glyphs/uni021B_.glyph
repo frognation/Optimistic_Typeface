@@ -1,0 +1,20 @@
+{
+glyphname = uni021B;
+layers = (
+{
+.lastUpdate = 787509404.251;
+layerId = m001;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (473,0);
+ref = uni0326;
+}
+);
+width = 717;
+}
+);
+unicode = 539;
+}
