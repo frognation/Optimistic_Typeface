@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.percent" format="2">
+  <advance width="726"/>
+  <outline>
+    <contour>
+      <point x="54" y="500"/>
+      <point x="218" y="689"/>
+      <point x="508" y="689"/>
+      <point x="672" y="500"/>
+      <point x="672" y="166"/>
+      <point x="508" y="-23"/>
+      <point x="218" y="-23"/>
+      <point x="54" y="166"/>
+    </contour>
+    <contour>
+      <point x="506" y="548"/>
+      <point x="220" y="548"/>
+      <point x="220" y="117"/>
+      <point x="506" y="117"/>
+    </contour>
+  </outline>
+</glyph>

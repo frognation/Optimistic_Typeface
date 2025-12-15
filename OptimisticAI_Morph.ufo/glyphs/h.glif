@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h" format="2">
+  <advance width="1094"/>
+  <unicode hex="0068"/>
+  <outline>
+    <contour>
+      <point x="99" y="1460" type="line"/>
+      <point x="312" y="1460" type="line"/>
+      <point x="312" y="876" type="line"/>
+      <point x="358" y="945"/>
+      <point x="522" y="1037"/>
+      <point x="632" y="1037" type="qcurve" smooth="yes"/>
+      <point x="999" y="1037"/>
+      <point x="999" y="605" type="qcurve" smooth="yes"/>
+      <point x="999" y="0" type="line"/>
+      <point x="787" y="0" type="line"/>
+      <point x="787" y="581" type="line" smooth="yes"/>
+      <point x="787" y="722"/>
+      <point x="687" y="852"/>
+      <point x="462" y="852"/>
+      <point x="312" y="700"/>
+      <point x="312" y="577" type="qcurve" smooth="yes"/>
+      <point x="312" y="0" type="line"/>
+      <point x="99" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-12-12 14:54:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

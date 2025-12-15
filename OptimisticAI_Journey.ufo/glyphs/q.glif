@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q" format="2">
+  <advance width="1148"/>
+  <unicode hex="0071"/>
+  <outline>
+    <contour>
+      <point x="837" y="149" type="line"/>
+      <point x="790" y="73"/>
+      <point x="620" y="-23"/>
+      <point x="504" y="-23" type="qcurve" smooth="yes"/>
+      <point x="367" y="-23"/>
+      <point x="165" y="109"/>
+      <point x="55" y="348"/>
+      <point x="55" y="668"/>
+      <point x="165" y="906"/>
+      <point x="367" y="1037"/>
+      <point x="505" y="1037" type="qcurve" smooth="yes"/>
+      <point x="620" y="1037"/>
+      <point x="799" y="933"/>
+      <point x="843" y="853" type="qcurve"/>
+      <point x="843" y="1014" type="line"/>
+      <point x="1049" y="1014" type="line"/>
+      <point x="1049" y="-370" type="line"/>
+      <point x="837" y="-370" type="line"/>
+    </contour>
+    <contour>
+      <point x="841" y="669"/>
+      <point x="691" y="852"/>
+      <point x="424" y="852"/>
+      <point x="273" y="669"/>
+      <point x="273" y="345"/>
+      <point x="424" y="162"/>
+      <point x="691" y="162"/>
+      <point x="841" y="345"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-12-12 14:54:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

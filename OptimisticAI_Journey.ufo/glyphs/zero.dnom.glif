@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.dnom" format="2">
+  <advance width="791"/>
+  <outline>
+    <contour>
+      <point x="54" y="560"/>
+      <point x="236" y="772"/>
+      <point x="555" y="772"/>
+      <point x="737" y="560"/>
+      <point x="737" y="189"/>
+      <point x="555" y="-23"/>
+      <point x="236" y="-23"/>
+      <point x="54" y="189"/>
+    </contour>
+    <contour>
+      <point x="235" y="374" type="qcurve" smooth="yes"/>
+      <point x="235" y="252"/>
+      <point x="317" y="123"/>
+      <point x="474" y="123"/>
+      <point x="557" y="252"/>
+      <point x="557" y="374" type="qcurve" smooth="yes"/>
+      <point x="557" y="626"/>
+      <point x="235" y="626"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-12-12 14:54:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

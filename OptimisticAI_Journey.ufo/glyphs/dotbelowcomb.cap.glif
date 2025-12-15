@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelowcomb.cap" format="2">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-136" y="-253" type="qcurve" smooth="yes"/>
+      <point x="-136" y="-196"/>
+      <point x="-58" y="-120"/>
+      <point x="58" y="-120"/>
+      <point x="136" y="-196"/>
+      <point x="136" y="-253" type="qcurve" smooth="yes"/>
+      <point x="136" y="-308"/>
+      <point x="58" y="-385"/>
+      <point x="-58" y="-385"/>
+      <point x="-136" y="-308"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-12-12 14:54:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

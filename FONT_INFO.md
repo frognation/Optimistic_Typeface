@@ -1,9 +1,9 @@
-# Optimistic AI Medium – Font Info Summary
+# Optimistic AI Morph – Font Info Summary
 
 ## Identity
-- Family: Optimistic AI Medium (Preferred family/style naming preserved)
-- Subfamily/Style: Regular (style map)
-- PostScript name: OptimisticAI-Medium
+- Family: Optimistic AI
+- Subfamily/Style: Morph
+- PostScript name: OptimisticAI-Morph
 - Version string: Version 1.000
 - Designer & Manufacturer: Dalton Maag Ltd for Meta Platforms, Inc.
 - Weight/Width: OS/2 weight 500 (Mid/Medium), width class 5 (Medium)
@@ -31,5 +31,5 @@
 
 ## Files generated in this repo
 - `OptimisticAI_Medium.ttf` – original TrueType source
-- `OptimisticAI_Medium.ufo/` – UFO package generated from the TTF
+- `OptimisticAI_Morph.ufo/` – UFO package generated/edited in this repo
 - `font_info.json` – machine-readable dump of detailed metrics, naming, and OpenType feature data

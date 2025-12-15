@@ -1,0 +1,19 @@
+{
+glyphname = atilde;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (524,0);
+ref = tildecomb;
+}
+);
+width = 1035;
+}
+);
+unicode = 227;
+}

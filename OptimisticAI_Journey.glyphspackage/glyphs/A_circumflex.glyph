@@ -1,0 +1,19 @@
+{
+glyphname = Acircumflex;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (661,0);
+ref = uni0302.cap;
+}
+);
+width = 1320;
+}
+);
+unicode = 194;
+}

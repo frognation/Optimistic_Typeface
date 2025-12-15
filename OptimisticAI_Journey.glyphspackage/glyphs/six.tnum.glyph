@@ -1,0 +1,14 @@
+{
+glyphname = six.tnum;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = six;
+}
+);
+width = 1178;
+}
+);
+}

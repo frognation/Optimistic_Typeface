@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="Uogonek" format="2">
-  <advance width="1351"/>
-  <outline>
-    <component base="U"/>
-    <component base="uni0328.round.cap" xOffset="836"/>
-  </outline>
-</glyph>

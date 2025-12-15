@@ -1,0 +1,10 @@
+{
+glyphname = uni2003;
+layers = (
+{
+layerId = m001;
+width = 2000;
+}
+);
+unicode = 8195;
+}

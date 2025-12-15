@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Optimistic AI – Basic vs Journey</title>
+    <style>
+      @font-face {
+        font-family: "OptimisticAI Basic";
+        src: url("./OptimisticAI_Medium.ttf") format("truetype");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "OptimisticAI Journey";
+        src: url("./build_otf/OptimisticAI-Journey.otf") format("opentype");
+        font-display: swap;
+      }
+
+      :root {
+        color-scheme: dark;
+
+        --bg: #0f0f10;
+        --fg: #f2f2f2;
+        --muted: #a8a8ad;
+        --border: #252528;
+        --inputBg: #17171a;
+        --inputBorder: #2a2a2e;
+        --label: #66c7ff;
+      }
+
+      :root[data-theme="light"] {
+        color-scheme: light;
+        --bg: #f6f7f9;
+        --fg: #121316;
+        --muted: #5a5d66;
+        --border: #d9dbe0;
+        --inputBg: #ffffff;
+        --inputBorder: #c9cbd2;
+        --label: #0b5ea8;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .panes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1px;
+        background: var(--border);
+        min-height: 0;
+      }
+
+      .pane {
+        background: var(--bg);
+        padding: 28px;
+        min-height: 0;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .label {
+        font-size: 14px;
+        color: var(--label);
+        letter-spacing: 0.02em;
+        margin-bottom: 14px;
+        margin-top: 0;
+      }
+
+      .sample {
+        font-size: 72px;
+        line-height: 1.05;
+        letter-spacing: 0;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      .sample.basic {
+        font-family: "OptimisticAI Basic", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .sample.morph {
+        font-family: "OptimisticAI Journey", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .inputBar {
+        border-top: 1px solid var(--border);
+        padding: 10px 12px;
+        background: var(--bg);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .input {
+        width: 100%;
+        box-sizing: border-box;
+        background: var(--inputBg);
+        color: var(--fg);
+        border: 1px solid var(--inputBorder);
+        border-radius: 8px;
+        padding: 10px 12px;
+        font-size: 13px;
+        outline: none;
+        flex: 1;
+      }
+
+      .input::placeholder {
+        color: var(--muted);
+      }
+
+      .input:focus {
+        border-color: var(--muted);
+      }
+
+      .toggle {
+        background: transparent;
+        color: var(--fg);
+        border: 1px solid var(--inputBorder);
+        border-radius: 8px;
+        padding: 9px 10px;
+        font-size: 12px;
+        line-height: 1;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .toggle:hover {
+        border-color: var(--muted);
+      }
+
+      .toggle[aria-pressed="true"] {
+        border-color: var(--label);
+        color: var(--label);
+      }
+
+      .icon {
+        width: 16px;
+        height: 16px;
+        display: block;
+      }
+
+      @media (max-width: 900px) {
+        .panes {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+        }
+
+        .sample {
+          font-size: 56px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="panes">
+      <section class="pane">
+        <div class="label">Optimistic AI (Medium)</div>
+        <div id="leftText" class="sample basic">Optimistic AI Basic</div>
+      </section>
+
+      <section class="pane">
+        <div class="label">OptimisticAI Journey</div>
+        <div id="rightText" class="sample morph">OptimisticAI Journey</div>
+      </section>
+    </main>
+
+    <footer class="inputBar">
+      <button id="shuffleSample" class="toggle" type="button" aria-label="Shuffle sample">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="16 3 21 3 21 8" />
+          <polyline points="21 16 21 21 16 21" />
+          <path d="M4 4l5 5" />
+          <path d="M4 20l5-5" />
+          <path d="M21 3L14 10" />
+          <path d="M14 14l7 7" />
+        </svg>
+      </button>
+      <input
+        id="typeInput"
+        class="input"
+        type="text"
+        placeholder="Type here..."
+        autocomplete="off"
+        spellcheck="false"
+      />
+
+      <button id="featureSalt" class="toggle" type="button" aria-pressed="false">salt</button>
+      <button id="featureSs01" class="toggle" type="button" aria-pressed="false">ss01</button>
+      <button id="featureSs02" class="toggle" type="button" aria-pressed="false">ss02</button>
+      <button id="themeToggle" class="toggle" type="button">Light mode</button>
+    </footer>
+
+    <script>
+      const samples = [
+        "The quick brown fox jumps over the lazy dog.",
+        "Sphinx of black quartz, judge my vow.",
+        "Pack my box with five dozen liquor jugs.",
+        "How vexingly quick daft zebras jump!",
+        "Waltz, bad nymph, for quick jigs vex.",
+        "Glib jocks quiz nymph to vex dwarf.",
+        "Jived fox nymph grabs quick waltz.",
+        "Crazy Fredericka bought many very exquisite opal jewels.",
+        "We promptly judged antique ivory buckles for the next prize.",
+        "Amazingly few discotheques provide jukeboxes.",
+        "The five boxing wizards jump quickly.",
+        "Jackdaws love my big sphinx of quartz.",
+        "Quick zephyrs blow, vexing daft Jim.",
+        "Brawny gods just flocked up to quiz and vex him.",
+        "Two driven jocks help fax my big quiz.",
+        "Five quacking zephyrs jolt my wax bed.",
+        "Big fjords vex quick waltz nymph.",
+        "Jinxed wizards pluck ivy from the big quilt.",
+        "Zany jukebox waltz: quick fives, bad hymns.",
+        "A quick movement of the enemy will jeopardize six gunboats.",
+        "All questions asked by five watched experts amaze the judge.",
+        "Heavy boxes perform quick waltzes and jigs.",
+        "Vexed nymphs go for quick jigs; bad waltz!",
+        "Cwm fjord bank glyphs vext quiz.",
+        [
+          "The quick brown fox jumps over the lazy dog.",
+          "Pack my box with five dozen liquor jugs.",
+          "Sphinx of black quartz, judge my vow.",
+          "How vexingly quick daft zebras jump!",
+          "Waltz, bad nymph, for quick jigs vex.",
+        ].join("\n"),
+        [
+          "Jackdaws love my big sphinx of quartz.",
+          "Glib jocks quiz nymph to vex dwarf.",
+          "Two driven jocks help fax my big quiz.",
+          "Five quacking zephyrs jolt my wax bed.",
+          "Big fjords vex quick waltz nymph.",
+        ].join("\n"),
+        [
+          "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "abcdefghijklmnopqrstuvwxyz",
+          "The quick brown fox jumps over the lazy dog.",
+          "Sphinx of black quartz, judge my vow.",
+          "Pack my box with five dozen liquor jugs.",
+        ].join("\n"),
+      ];
+
+      function pickSample() {
+        const key = "morphCompare.lastSampleIndex";
+        const last = Number.parseInt(localStorage.getItem(key) ?? "-1", 10);
+
+        let idx = Math.floor(Math.random() * samples.length);
+        if (samples.length > 1 && idx === last) {
+          idx = (idx + 1) % samples.length;
+        }
+
+        localStorage.setItem(key, String(idx));
+        return samples[idx];
+      }
+
+      const defaults = {
+        left: pickSample(),
+        right: "",
+      };
+      defaults.right = defaults.left;
+
+      const leftText = document.getElementById("leftText");
+      const rightText = document.getElementById("rightText");
+      const typeInput = document.getElementById("typeInput");
+      const shuffleSample = document.getElementById("shuffleSample");
+      const themeToggle = document.getElementById("themeToggle");
+      const featureSalt = document.getElementById("featureSalt");
+      const featureSs01 = document.getElementById("featureSs01");
+      const featureSs02 = document.getElementById("featureSs02");
+
+      const features = {
+        salt: false,
+        ss01: false,
+        ss02: false,
+      };
+
+      function shuffleDefaults() {
+        const s = pickSample();
+        defaults.left = s;
+        defaults.right = s;
+        typeInput.value = "";
+        render();
+      }
+
+      function applyFeatures() {
+        const settings = [
+          `"salt" ${features.salt ? 1 : 0}`,
+          `"ss01" ${features.ss01 ? 1 : 0}`,
+          `"ss02" ${features.ss02 ? 1 : 0}`,
+        ].join(", ");
+
+        leftText.style.fontFeatureSettings = settings;
+        rightText.style.fontFeatureSettings = settings;
+
+        featureSalt.setAttribute("aria-pressed", String(features.salt));
+        featureSs01.setAttribute("aria-pressed", String(features.ss01));
+        featureSs02.setAttribute("aria-pressed", String(features.ss02));
+      }
+
+      featureSalt.addEventListener("click", () => {
+        features.salt = !features.salt;
+        applyFeatures();
+      });
+      featureSs01.addEventListener("click", () => {
+        features.ss01 = !features.ss01;
+        applyFeatures();
+      });
+      featureSs02.addEventListener("click", () => {
+        features.ss02 = !features.ss02;
+        applyFeatures();
+      });
+
+      shuffleSample.addEventListener("click", shuffleDefaults);
+
+      function applyTheme(theme) {
+        const t = theme === "light" ? "light" : "dark";
+        document.documentElement.dataset.theme = t;
+        themeToggle.textContent = t === "light" ? "Dark mode" : "Light mode";
+        localStorage.setItem("morphCompare.theme", t);
+      }
+
+      themeToggle.addEventListener("click", () => {
+        const current = document.documentElement.dataset.theme === "light" ? "light" : "dark";
+        applyTheme(current === "light" ? "dark" : "light");
+      });
+
+      function render() {
+        const raw = typeInput.value ?? "";
+        const trimmed = raw.trim();
+        if (!trimmed) {
+          leftText.textContent = defaults.left;
+          rightText.textContent = defaults.right;
+          return;
+        }
+
+        leftText.textContent = trimmed;
+        rightText.textContent = trimmed;
+      }
+
+      typeInput.addEventListener("input", render);
+
+      applyTheme(localStorage.getItem("morphCompare.theme") || "dark");
+      applyFeatures();
+      render();
+    </script>
+  </body>
+</html>

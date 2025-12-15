@@ -1,0 +1,18 @@
+{
+glyphname = aogonek.alt;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.alt;
+},
+{
+pos = (1049,0);
+ref = uni0328;
+}
+);
+width = 1148;
+}
+);
+}

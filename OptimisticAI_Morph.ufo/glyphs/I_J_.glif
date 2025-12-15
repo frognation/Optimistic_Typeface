@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ" format="2">
+  <advance width="1142"/>
+  <unicode hex="0132"/>
+  <outline>
+    <contour>
+      <point x="816" y="466" type="qcurve" smooth="yes"/>
+      <point x="816" y="1400" type="line"/>
+      <point x="1039" y="1400" type="line"/>
+      <point x="1039" y="469" type="line" smooth="yes"/>
+      <point x="1039" y="232"/>
+      <point x="797" y="-23"/>
+      <point x="568" y="-23" type="qcurve" smooth="yes"/>
+      <point x="366" y="-23"/>
+      <point x="133" y="183"/>
+      <point x="102" y="408" type="qcurve"/>
+      <point x="330" y="408" type="line"/>
+      <point x="349" y="277"/>
+      <point x="464" y="170"/>
+      <point x="567" y="170" type="qcurve" smooth="yes"/>
+      <point x="689" y="170"/>
+      <point x="816" y="321"/>
+    </contour>
+    <contour>
+      <point x="102" y="1400" type="line"/>
+      <point x="326" y="1400" type="line"/>
+      <point x="326" y="563" type="line"/>
+      <point x="102" y="563" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-12-12 14:54:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

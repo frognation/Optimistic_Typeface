@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.dnom" format="2">
+  <advance width="749"/>
+  <outline>
+    <contour>
+      <point x="44" y="504" type="qcurve" smooth="yes"/>
+      <point x="44" y="626"/>
+      <point x="217" y="772"/>
+      <point x="361" y="772" type="qcurve" smooth="yes"/>
+      <point x="519" y="772"/>
+      <point x="700" y="568"/>
+      <point x="700" y="394" type="qcurve" smooth="yes"/>
+      <point x="700" y="189"/>
+      <point x="515" y="-23"/>
+      <point x="356" y="-23" type="qcurve" smooth="yes"/>
+      <point x="235" y="-23"/>
+      <point x="79" y="89"/>
+      <point x="58" y="189" type="qcurve"/>
+      <point x="233" y="189" type="line"/>
+      <point x="264" y="113"/>
+      <point x="361" y="113" type="qcurve" smooth="yes"/>
+      <point x="444" y="113"/>
+      <point x="530" y="231"/>
+      <point x="534" y="373" type="qcurve"/>
+      <point x="460" y="259"/>
+      <point x="311" y="259" type="qcurve" smooth="yes"/>
+      <point x="193" y="259"/>
+      <point x="44" y="395"/>
+    </contour>
+    <contour>
+      <point x="216" y="512" type="qcurve" smooth="yes"/>
+      <point x="216" y="455"/>
+      <point x="293" y="390"/>
+      <point x="433" y="390"/>
+      <point x="510" y="455"/>
+      <point x="510" y="512" type="qcurve" smooth="yes"/>
+      <point x="510" y="571"/>
+      <point x="434" y="636"/>
+      <point x="294" y="636"/>
+      <point x="216" y="571"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-12-12 14:54:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>
