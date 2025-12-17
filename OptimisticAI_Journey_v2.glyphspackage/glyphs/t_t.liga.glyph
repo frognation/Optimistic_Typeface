@@ -90,7 +90,8 @@ nodes = (
 },
 {
 attr = {
-lineCapEnd = "2";
+lineCapEnd = 2;
+lineCapStart = 2;
 strokeHeight = 180;
 strokeWidth = 196;
 };
@@ -98,6 +99,23 @@ closed = 0;
 nodes = (
 (1304,921,ls),
 (479,921,l)
+);
+},
+{
+attr = {
+lineCapEnd = "2";
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(1304,922,l),
+(980,922,ls),
+(893,922,o),
+(835,853,o),
+(835,768,cs),
+(838,202,l)
 );
 }
 );

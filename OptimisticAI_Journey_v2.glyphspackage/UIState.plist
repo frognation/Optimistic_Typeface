@@ -3,6 +3,8 @@ displayStrings = (
 "f /f_f  /f_f_f.liga 
 t /t_t.liga  /t_t_t.liga  
 oo",
-"/t_t_t.liga"
+"/t_t_t.liga",
+"f/f_f.liga/f_f_f.liga/f_f_f_f.liga 
+t/t_t.liga/t_t_t.liga/t_t_t_t.liga"
 );
 }

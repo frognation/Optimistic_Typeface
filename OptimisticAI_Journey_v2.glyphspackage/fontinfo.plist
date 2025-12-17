@@ -622,6 +622,8 @@ tag = dlig;
 {
 automatic = 1;
 code = "lookupflag IgnoreMarks;
+sub f f f f by f_f_f_f.liga;
+sub t t t t by t_t_t_t.liga;
 sub f f f by f_f_f.liga;
 sub f f i by f_f_i;
 sub t t t by t_t_t.liga;
