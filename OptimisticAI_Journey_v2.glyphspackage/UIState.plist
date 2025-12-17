@@ -5,6 +5,14 @@ t /t_t.liga  /t_t_t.liga
 oo",
 "/t_t_t.liga",
 "f/f_f.liga/f_f_f.liga/f_f_f_f.liga 
-t/t_t.liga/t_t_t.liga/t_t_t_t.liga"
+t/t_t.liga/t_t_t.liga/t_t_t_t.liga  ",
+"Vi
+Vib
+/V_i_b_e_s.liga 
+/V_i_b_e.liga 
+
+
+",
+"/V_i_b_e.liga  Vitamin"
 );
 }

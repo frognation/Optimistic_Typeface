@@ -622,12 +622,13 @@ tag = dlig;
 {
 automatic = 1;
 code = "lookupflag IgnoreMarks;
+sub V i b e s by V_i_b_e_s.liga;
+sub V i b e by V_i_b_e.liga;
 sub f f f f by f_f_f_f.liga;
 sub t t t t by t_t_t_t.liga;
 sub f f f by f_f_f.liga;
 sub f f i by f_f_i;
 sub t t t by t_t_t.liga;
-sub V I by V_I.liga;
 sub f f by f_f;
 sub f i by f_i;
 sub t t by t_t.liga;
