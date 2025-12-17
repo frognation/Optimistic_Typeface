@@ -1,0 +1,15 @@
+{
+glyphname = five.tnum;
+layers = (
+{
+.lastUpdate = 787697534.756;
+layerId = m001;
+shapes = (
+{
+ref = five;
+}
+);
+width = 1265;
+}
+);
+}

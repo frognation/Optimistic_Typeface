@@ -1,0 +1,17 @@
+{
+glyphname = circumflex;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+pos = (389,0);
+ref = uni0302;
+}
+);
+width = 778;
+}
+);
+unicode = 710;
+}

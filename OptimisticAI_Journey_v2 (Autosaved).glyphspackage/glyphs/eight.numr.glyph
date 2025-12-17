@@ -1,0 +1,16 @@
+{
+glyphname = eight.numr;
+layers = (
+{
+.lastUpdate = 787697534.754;
+layerId = m001;
+shapes = (
+{
+pos = (0,652);
+ref = eight.dnom;
+}
+);
+width = 749;
+}
+);
+}

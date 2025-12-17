@@ -1,0 +1,20 @@
+{
+glyphname = Aogonek;
+layers = (
+{
+.lastUpdate = 787697061.809;
+layerId = m001;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (1299,0);
+ref = uni0328.cap;
+}
+);
+width = 1320;
+}
+);
+unicode = 260;
+}

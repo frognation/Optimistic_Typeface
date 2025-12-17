@@ -1,0 +1,20 @@
+{
+glyphname = edotaccent;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (535,0);
+ref = uni0307;
+}
+);
+width = 1074;
+}
+);
+unicode = 279;
+}

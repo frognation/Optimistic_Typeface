@@ -1,0 +1,20 @@
+{
+glyphname = icircumflex;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+ref = dotlessi;
+},
+{
+pos = (206,0);
+ref = uni0302;
+}
+);
+width = 411;
+}
+);
+unicode = 238;
+}

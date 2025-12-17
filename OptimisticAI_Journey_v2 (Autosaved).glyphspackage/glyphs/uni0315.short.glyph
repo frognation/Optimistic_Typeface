@@ -1,0 +1,20 @@
+{
+glyphname = uni0315.short;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,1460,l),
+(195,1124,l),
+(25,1124,l),
+(85,1460,l)
+);
+}
+);
+width = 0;
+}
+);
+}

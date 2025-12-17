@@ -1,0 +1,15 @@
+{
+glyphname = zero.tnum;
+layers = (
+{
+.lastUpdate = 787697534.758;
+layerId = m001;
+shapes = (
+{
+ref = zero;
+}
+);
+width = 1214;
+}
+);
+}

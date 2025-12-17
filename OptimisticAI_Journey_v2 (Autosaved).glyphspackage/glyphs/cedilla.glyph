@@ -1,0 +1,17 @@
+{
+glyphname = cedilla;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+pos = (207,0);
+ref = uni0327;
+}
+);
+width = 453;
+}
+);
+unicode = 184;
+}

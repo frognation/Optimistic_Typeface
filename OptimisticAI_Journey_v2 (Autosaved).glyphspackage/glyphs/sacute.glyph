@@ -1,0 +1,20 @@
+{
+glyphname = sacute;
+layers = (
+{
+.lastUpdate = 787697616.226;
+layerId = m001;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (490,0);
+ref = acutecomb;
+}
+);
+width = 961;
+}
+);
+unicode = 347;
+}

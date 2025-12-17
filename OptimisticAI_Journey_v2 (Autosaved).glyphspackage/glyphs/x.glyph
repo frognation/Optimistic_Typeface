@@ -1,0 +1,141 @@
+{
+glyphname = x;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+attr = {
+lineCapEnd = "2";
+lineCapStart = "4";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(150,1014,l),
+(432,602,ls),
+(475,538,o),
+(476,480,o),
+(432,419,cs),
+(126,-2,l)
+);
+},
+{
+attr = {
+lineCapEnd = "2";
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(127,-2,l),
+(867,1017,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(866,1017,l),
+(574,615,ls),
+(529,554,o),
+(530,496,o),
+(572,433,cs),
+(857,-1,l)
+);
+}
+);
+width = 1002;
+},
+{
+associatedMasterId = m001;
+layerId = "FF6EEFA1-E76E-441D-A7CE-596B4ED9D27A";
+name = Stroke;
+shapes = (
+{
+attr = {
+lineCapEnd = "2";
+lineCapStart = "4";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(150,1014,l),
+(432,602,ls),
+(475,538,o),
+(476,480,o),
+(432,419,cs),
+(126,-2,l)
+);
+},
+{
+attr = {
+lineCapEnd = "2";
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(127,-2,l),
+(867,1017,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(866,1017,l),
+(574,615,ls),
+(529,554,o),
+(530,496,o),
+(572,433,cs),
+(857,-1,l)
+);
+}
+);
+visible = 1;
+width = 1002;
+},
+{
+associatedMasterId = m001;
+layerId = "FF5CA4BB-8D5F-4A9A-A26D-C99E0247BB3B";
+name = Background;
+shapes = (
+{
+closed = 1;
+nodes = (
+(976,1014,l),
+(625,514,l),
+(987,0,l),
+(745,0,l),
+(495,378,l),
+(244,0,l),
+(15,0,l),
+(377,514,l),
+(26,1014,l),
+(269,1014,l),
+(508,653,l),
+(746,1014,l)
+);
+}
+);
+visible = 1;
+width = 1002;
+}
+);
+unicode = 120;
+}

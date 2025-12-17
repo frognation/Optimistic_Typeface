@@ -1,0 +1,20 @@
+{
+glyphname = ograve;
+layers = (
+{
+.lastUpdate = 787697061.812;
+layerId = m001;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (557,0);
+ref = gravecomb;
+}
+);
+width = 1114;
+}
+);
+unicode = 242;
+}

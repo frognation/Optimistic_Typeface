@@ -1,0 +1,21 @@
+{
+glyphname = uni0312;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-164,1160,l),
+(11,1518,l),
+(182,1518,l),
+(58,1160,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 786;
+}

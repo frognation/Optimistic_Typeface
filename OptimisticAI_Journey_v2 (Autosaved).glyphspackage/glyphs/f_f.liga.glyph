@@ -1,0 +1,15 @@
+{
+glyphname = f_f.liga;
+layers = (
+{
+.lastUpdate = 787697512.866;
+layerId = m001;
+shapes = (
+{
+ref = f_f;
+}
+);
+width = 1339;
+}
+);
+}

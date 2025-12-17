@@ -1,0 +1,19 @@
+{
+glyphname = dotlessij;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+ref = dotlessi;
+},
+{
+pos = (411,0);
+ref = uni0237;
+}
+);
+width = 822;
+}
+);
+}

@@ -1,0 +1,17 @@
+{
+glyphname = dotaccent;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+pos = (159,0);
+ref = uni0307;
+}
+);
+width = 317;
+}
+);
+unicode = 729;
+}

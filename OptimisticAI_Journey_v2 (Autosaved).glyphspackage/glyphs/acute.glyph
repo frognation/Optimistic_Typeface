@@ -1,0 +1,17 @@
+{
+glyphname = acute;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+pos = (166,0);
+ref = acutecomb;
+}
+);
+width = 459;
+}
+);
+unicode = 180;
+}

@@ -1,0 +1,20 @@
+{
+glyphname = abreve;
+layers = (
+{
+.lastUpdate = 787697061.811;
+layerId = m001;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (524,0);
+ref = uni0306;
+}
+);
+width = 1035;
+}
+);
+unicode = 259;
+}

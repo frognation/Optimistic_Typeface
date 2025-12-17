@@ -1,0 +1,19 @@
+{
+glyphname = acircumflex.alt;
+layers = (
+{
+.lastUpdate = 787697616.235;
+layerId = m001;
+shapes = (
+{
+ref = a.alt;
+},
+{
+pos = (590,0);
+ref = uni0302;
+}
+);
+width = 1148;
+}
+);
+}
