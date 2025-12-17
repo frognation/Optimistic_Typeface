@@ -1,0 +1,14 @@
+{
+glyphname = one.tnum;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = one;
+}
+);
+width = 895;
+}
+);
+}

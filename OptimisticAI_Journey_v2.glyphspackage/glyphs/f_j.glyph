@@ -1,0 +1,22 @@
+{
+glyphname = f_j;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = f;
+},
+{
+pos = (722,0);
+ref = uni0237;
+},
+{
+pos = (928,0);
+ref = uni0307;
+}
+);
+width = 1133;
+}
+);
+}

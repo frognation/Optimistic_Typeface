@@ -1,0 +1,15 @@
+{
+glyphname = periodcentered.loclCAT.cap;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+pos = (-538,602);
+ref = period;
+}
+);
+width = 0;
+}
+);
+}

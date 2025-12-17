@@ -1,0 +1,16 @@
+{
+glyphname = breve;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+pos = (367,0);
+ref = uni0306;
+}
+);
+width = 734;
+}
+);
+unicode = 728;
+}

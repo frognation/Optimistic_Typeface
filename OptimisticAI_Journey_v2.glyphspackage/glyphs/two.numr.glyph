@@ -1,0 +1,15 @@
+{
+glyphname = two.numr;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+pos = (0,652);
+ref = two.dnom;
+}
+);
+width = 739;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = Ccedilla;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (721,0);
+ref = uni0327.cap;
+}
+);
+width = 1396;
+}
+);
+unicode = 199;
+}

@@ -1,0 +1,19 @@
+{
+glyphname = uni1E25;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = h;
+},
+{
+pos = (550,0);
+ref = dotbelowcomb;
+}
+);
+width = 1094;
+}
+);
+unicode = 7717;
+}

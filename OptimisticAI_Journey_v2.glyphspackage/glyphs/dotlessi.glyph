@@ -1,0 +1,61 @@
+{
+glyphname = dotlessi;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+attr = {
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(206,1014,l),
+(206,0,ls)
+);
+}
+);
+width = 411;
+},
+{
+associatedMasterId = m001;
+layerId = "A4B9C8E2-DAC2-4A65-B30B-AF18D1A0E2BA";
+name = Stroke;
+shapes = (
+{
+attr = {
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(206,1014,l),
+(206,0,ls)
+);
+}
+);
+visible = 1;
+width = 411;
+},
+{
+associatedMasterId = m001;
+layerId = "25E97924-FCD8-4299-A2BF-B4EC0AEDB31E";
+name = Background;
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,1014,l),
+(312,0,l),
+(99,0,l),
+(99,1014,l)
+);
+}
+);
+visible = 1;
+width = 411;
+}
+);
+unicode = 305;
+}
