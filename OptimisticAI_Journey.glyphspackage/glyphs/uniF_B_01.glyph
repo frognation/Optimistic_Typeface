@@ -5,15 +5,68 @@ layers = (
 layerId = m001;
 shapes = (
 {
-ref = f;
+attr = {
+identifier = ID0x12d842dd0;
+lineCapEnd = 2;
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(324,3,ls),
+(321,767,ls),
+(321,852,o),
+(263,921,o),
+(176,921,cs),
+(17,921,l)
+);
 },
 {
-pos = (722,0);
-ref = dotlessi;
+attr = {
+identifier = ID0x12d842dd0;
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(17,923,l),
+(179,923,ls),
+(270,923,o),
+(324,990,o),
+(324,1077,cs),
+(324,1143,ls),
+(324,1278,o),
+(393,1392,o),
+(572,1392,cs),
+(706,1392,l)
+);
 },
 {
 pos = (928,0);
 ref = uni0307;
+},
+{
+attr = {
+identifier = ID0x12d842dd0;
+lineCapStart = "2";
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(325,3,ls),
+(325,767,ls),
+(325,852,o),
+(383,921,o),
+(470,921,cs),
+(868,921,ls),
+(907,921,o),
+(928,900,o),
+(928,861,cs),
+(928,0,ls)
+);
 }
 );
 width = 1133;
