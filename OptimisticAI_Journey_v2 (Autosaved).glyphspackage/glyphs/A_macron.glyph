@@ -1,0 +1,20 @@
+{
+glyphname = Amacron;
+layers = (
+{
+.lastUpdate = 787674968.009;
+layerId = m001;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (661,0);
+ref = uni0304.cap;
+}
+);
+width = 1320;
+}
+);
+unicode = 256;
+}

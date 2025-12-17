@@ -1,0 +1,20 @@
+{
+glyphname = Aacute;
+layers = (
+{
+.lastUpdate = 787674968.008;
+layerId = m001;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (661,0);
+ref = acutecomb.cap;
+}
+);
+width = 1320;
+}
+);
+unicode = 193;
+}

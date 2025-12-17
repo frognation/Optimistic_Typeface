@@ -1,0 +1,20 @@
+{
+glyphname = umacron;
+layers = (
+{
+.lastUpdate = 787674968.012;
+layerId = m001;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (539,0);
+ref = uni0304;
+}
+);
+width = 1089;
+}
+);
+unicode = 363;
+}

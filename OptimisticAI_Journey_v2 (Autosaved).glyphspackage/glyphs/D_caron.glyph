@@ -1,0 +1,20 @@
+{
+glyphname = Dcaron;
+layers = (
+{
+.lastUpdate = 787674968.009;
+layerId = m001;
+shapes = (
+{
+ref = D;
+},
+{
+pos = (657,0);
+ref = uni030C.cap;
+}
+);
+width = 1380;
+}
+);
+unicode = 270;
+}

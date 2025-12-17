@@ -1,0 +1,20 @@
+{
+glyphname = j;
+layers = (
+{
+.lastUpdate = 787674968.011;
+layerId = m001;
+shapes = (
+{
+ref = uni0237;
+},
+{
+pos = (206,0);
+ref = uni0307;
+}
+);
+width = 411;
+}
+);
+unicode = 106;
+}

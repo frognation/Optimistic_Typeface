@@ -1,0 +1,17 @@
+{
+glyphname = hungarumlaut;
+layers = (
+{
+.lastUpdate = 787674968.011;
+layerId = m001;
+shapes = (
+{
+pos = (309,0);
+ref = uni030B;
+}
+);
+width = 849;
+}
+);
+unicode = 733;
+}

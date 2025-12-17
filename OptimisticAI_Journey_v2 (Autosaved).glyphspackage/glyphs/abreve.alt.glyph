@@ -1,0 +1,19 @@
+{
+glyphname = abreve.alt;
+layers = (
+{
+.lastUpdate = 787674968.012;
+layerId = m001;
+shapes = (
+{
+ref = a.alt;
+},
+{
+pos = (590,0);
+ref = uni0306;
+}
+);
+width = 1148;
+}
+);
+}

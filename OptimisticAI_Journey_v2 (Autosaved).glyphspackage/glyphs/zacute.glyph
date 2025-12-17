@@ -1,0 +1,20 @@
+{
+glyphname = zacute;
+layers = (
+{
+.lastUpdate = 787674968.012;
+layerId = m001;
+shapes = (
+{
+ref = z;
+},
+{
+pos = (481,0);
+ref = acutecomb;
+}
+);
+width = 949;
+}
+);
+unicode = 378;
+}

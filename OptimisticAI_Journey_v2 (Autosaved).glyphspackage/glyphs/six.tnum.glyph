@@ -1,0 +1,15 @@
+{
+glyphname = six.tnum;
+layers = (
+{
+.lastUpdate = 787674974.688;
+layerId = m001;
+shapes = (
+{
+ref = six;
+}
+);
+width = 1178;
+}
+);
+}

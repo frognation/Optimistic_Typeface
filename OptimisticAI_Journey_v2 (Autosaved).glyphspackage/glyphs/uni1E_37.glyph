@@ -1,0 +1,20 @@
+{
+glyphname = uni1E37;
+layers = (
+{
+.lastUpdate = 787674968.007;
+layerId = m001;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (206,0);
+ref = dotbelowcomb;
+}
+);
+width = 411;
+}
+);
+unicode = 7735;
+}

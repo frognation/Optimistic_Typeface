@@ -1,0 +1,20 @@
+{
+glyphname = Ycircumflex;
+layers = (
+{
+.lastUpdate = 787674968.01;
+layerId = m001;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (642,0);
+ref = uni0302.cap;
+}
+);
+width = 1283;
+}
+);
+unicode = 374;
+}

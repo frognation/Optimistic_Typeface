@@ -1,0 +1,17 @@
+{
+glyphname = macron;
+layers = (
+{
+.lastUpdate = 787674968.011;
+layerId = m001;
+shapes = (
+{
+pos = (364,0);
+ref = uni0304;
+}
+);
+width = 727;
+}
+);
+unicode = 175;
+}

@@ -1,0 +1,17 @@
+{
+glyphname = caron;
+layers = (
+{
+.lastUpdate = 787674968.01;
+layerId = m001;
+shapes = (
+{
+pos = (389,0);
+ref = uni030C;
+}
+);
+width = 778;
+}
+);
+unicode = 711;
+}

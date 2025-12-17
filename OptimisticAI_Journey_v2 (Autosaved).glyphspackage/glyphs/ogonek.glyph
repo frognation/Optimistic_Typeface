@@ -1,0 +1,17 @@
+{
+glyphname = ogonek;
+layers = (
+{
+.lastUpdate = 787674968.011;
+layerId = m001;
+shapes = (
+{
+pos = (395,0);
+ref = uni0328;
+}
+);
+width = 424;
+}
+);
+unicode = 731;
+}

@@ -1,0 +1,16 @@
+{
+glyphname = uni2010;
+layers = (
+{
+.lastUpdate = 787674968.008;
+layerId = m001;
+shapes = (
+{
+ref = hyphen;
+}
+);
+width = 789;
+}
+);
+unicode = 8208;
+}

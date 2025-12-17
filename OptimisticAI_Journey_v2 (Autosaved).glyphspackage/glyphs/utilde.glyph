@@ -1,0 +1,20 @@
+{
+glyphname = utilde;
+layers = (
+{
+.lastUpdate = 787674968.012;
+layerId = m001;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (539,0);
+ref = tildecomb;
+}
+);
+width = 1089;
+}
+);
+unicode = 361;
+}

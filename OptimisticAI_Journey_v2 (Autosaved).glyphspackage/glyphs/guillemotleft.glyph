@@ -1,0 +1,20 @@
+{
+glyphname = guillemotleft;
+layers = (
+{
+.lastUpdate = 787674968.011;
+layerId = m001;
+shapes = (
+{
+ref = guilsinglleft;
+},
+{
+pos = (419,0);
+ref = guilsinglleft;
+}
+);
+width = 1013;
+}
+);
+unicode = 171;
+}

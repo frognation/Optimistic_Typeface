@@ -1,0 +1,20 @@
+{
+glyphname = wgrave;
+layers = (
+{
+.lastUpdate = 787674968.012;
+layerId = m001;
+shapes = (
+{
+ref = w;
+},
+{
+pos = (742,0);
+ref = gravecomb;
+}
+);
+width = 1485;
+}
+);
+unicode = 7809;
+}

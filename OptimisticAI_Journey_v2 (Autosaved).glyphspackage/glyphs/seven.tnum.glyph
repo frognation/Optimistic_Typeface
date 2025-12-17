@@ -1,0 +1,15 @@
+{
+glyphname = seven.tnum;
+layers = (
+{
+.lastUpdate = 787674974.688;
+layerId = m001;
+shapes = (
+{
+ref = seven;
+}
+);
+width = 1032;
+}
+);
+}

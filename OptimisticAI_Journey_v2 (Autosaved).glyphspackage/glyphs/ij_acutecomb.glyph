@@ -1,0 +1,27 @@
+{
+glyphname = ij_acutecomb;
+layers = (
+{
+.lastUpdate = 787674968.011;
+layerId = m001;
+shapes = (
+{
+ref = dotlessi;
+},
+{
+pos = (411,0);
+ref = uni0237;
+},
+{
+pos = (219,0);
+ref = acutecomb;
+},
+{
+pos = (657,0);
+ref = acutecomb;
+}
+);
+width = 822;
+}
+);
+}
