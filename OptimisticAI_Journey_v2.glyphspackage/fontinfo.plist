@@ -466,7 +466,22 @@ seven.tnum,
 six.tnum,
 three.tnum,
 two.tnum,
-zero.tnum
+zero.tnum,
+a.caltInit,
+a.caltMid,
+a.caltEnd,
+e.caltInit,
+e.caltMid,
+e.caltEnd,
+f.caltInit,
+f.caltMid,
+f.caltEnd,
+o.caltInit,
+o.caltMid,
+o.caltEnd,
+t.caltInit,
+t.caltMid,
+t.caltEnd
 );
 },
 {
@@ -607,6 +622,90 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 ";
 tag = ordn;
+},
+{
+code = "@aRun = [a a.caltInit a.caltMid a.caltEnd];
+@eRun = [e e.caltInit e.caltMid e.caltEnd];
+@fRun = [f f.caltInit f.caltMid f.caltEnd];
+@oRun = [o o.caltInit o.caltMid o.caltEnd];
+@tRun = [t t.caltInit t.caltMid t.caltEnd];
+
+lookup calt_a_mid {
+\tlookupflag IgnoreMarks;
+\tsub @aRun a' @aRun by a.caltMid;
+} calt_a_mid;
+lookup calt_a_end {
+\tlookupflag IgnoreMarks;
+\tignore sub @aRun a' @aRun;
+\tsub @aRun a' by a.caltEnd;
+} calt_a_end;
+lookup calt_a_init {
+\tlookupflag IgnoreMarks;
+\tignore sub @aRun a';
+\tsub a' @aRun by a.caltInit;
+} calt_a_init;
+
+lookup calt_e_mid {
+\tlookupflag IgnoreMarks;
+\tsub @eRun e' @eRun by e.caltMid;
+} calt_e_mid;
+lookup calt_e_end {
+\tlookupflag IgnoreMarks;
+\tignore sub @eRun e' @eRun;
+\tsub @eRun e' by e.caltEnd;
+} calt_e_end;
+lookup calt_e_init {
+\tlookupflag IgnoreMarks;
+\tignore sub @eRun e';
+\tsub e' @eRun by e.caltInit;
+} calt_e_init;
+
+lookup calt_f_mid {
+\tlookupflag IgnoreMarks;
+\tsub @fRun f' @fRun by f.caltMid;
+} calt_f_mid;
+lookup calt_f_end {
+\tlookupflag IgnoreMarks;
+\tignore sub @fRun f' @fRun;
+\tsub @fRun f' by f.caltEnd;
+} calt_f_end;
+lookup calt_f_init {
+\tlookupflag IgnoreMarks;
+\tignore sub @fRun f';
+\tsub f' @fRun by f.caltInit;
+} calt_f_init;
+
+lookup calt_o_mid {
+\tlookupflag IgnoreMarks;
+\tsub @oRun o' @oRun by o.caltMid;
+} calt_o_mid;
+lookup calt_o_end {
+\tlookupflag IgnoreMarks;
+\tignore sub @oRun o' @oRun;
+\tsub @oRun o' by o.caltEnd;
+} calt_o_end;
+lookup calt_o_init {
+\tlookupflag IgnoreMarks;
+\tignore sub @oRun o';
+\tsub o' @oRun by o.caltInit;
+} calt_o_init;
+
+lookup calt_t_mid {
+\tlookupflag IgnoreMarks;
+\tsub @tRun t' @tRun by t.caltMid;
+} calt_t_mid;
+lookup calt_t_end {
+\tlookupflag IgnoreMarks;
+\tignore sub @tRun t' @tRun;
+\tsub @tRun t' by t.caltEnd;
+} calt_t_end;
+lookup calt_t_init {
+\tlookupflag IgnoreMarks;
+\tignore sub @tRun t';
+\tsub t' @tRun by t.caltInit;
+} calt_t_init;
+";
+tag = calt;
 },
 {
 automatic = 1;
@@ -12731,7 +12830,22 @@ two.tnum,
 zero.tnum,
 O.alt,
 V.alt,
-M.alt2
+M.alt2,
+a.caltInit,
+a.caltMid,
+a.caltEnd,
+e.caltInit,
+e.caltMid,
+e.caltEnd,
+f.caltInit,
+f.caltMid,
+f.caltEnd,
+o.caltInit,
+o.caltMid,
+o.caltEnd,
+t.caltInit,
+t.caltMid,
+t.caltEnd
 );
 public.postscriptNames = {
 uni0000 = NULL;
