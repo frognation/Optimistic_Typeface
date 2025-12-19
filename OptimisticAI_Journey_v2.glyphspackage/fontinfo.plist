@@ -525,6 +525,7 @@ feature numr;
 feature dnom;
 feature frac;
 feature ordn;
+feature calt;
 ";
 tag = aalt;
 },
@@ -631,78 +632,78 @@ code = "@aRun = [a a.caltInit a.caltMid a.caltEnd];
 @tRun = [t t.caltInit t.caltMid t.caltEnd];
 
 lookup calt_a_mid {
-\tlookupflag IgnoreMarks;
-\tsub @aRun a' @aRun by a.caltMid;
+	lookupflag IgnoreMarks;
+	sub @aRun a' @aRun by a.caltMid;
 } calt_a_mid;
 lookup calt_a_end {
-\tlookupflag IgnoreMarks;
-\tignore sub @aRun a' @aRun;
-\tsub @aRun a' by a.caltEnd;
+	lookupflag IgnoreMarks;
+	ignore sub @aRun a' @aRun;
+	sub @aRun a' by a.caltEnd;
 } calt_a_end;
 lookup calt_a_init {
-\tlookupflag IgnoreMarks;
-\tignore sub @aRun a';
-\tsub a' @aRun by a.caltInit;
+	lookupflag IgnoreMarks;
+	ignore sub @aRun a';
+	sub a' @aRun by a.caltInit;
 } calt_a_init;
 
 lookup calt_e_mid {
-\tlookupflag IgnoreMarks;
-\tsub @eRun e' @eRun by e.caltMid;
+	lookupflag IgnoreMarks;
+	sub @eRun e' @eRun by e.caltMid;
 } calt_e_mid;
 lookup calt_e_end {
-\tlookupflag IgnoreMarks;
-\tignore sub @eRun e' @eRun;
-\tsub @eRun e' by e.caltEnd;
+	lookupflag IgnoreMarks;
+	ignore sub @eRun e' @eRun;
+	sub @eRun e' by e.caltEnd;
 } calt_e_end;
 lookup calt_e_init {
-\tlookupflag IgnoreMarks;
-\tignore sub @eRun e';
-\tsub e' @eRun by e.caltInit;
+	lookupflag IgnoreMarks;
+	ignore sub @eRun e';
+	sub e' @eRun by e.caltInit;
 } calt_e_init;
 
 lookup calt_f_mid {
-\tlookupflag IgnoreMarks;
-\tsub @fRun f' @fRun by f.caltMid;
+	lookupflag IgnoreMarks;
+	sub @fRun f' @fRun by f.caltMid;
 } calt_f_mid;
 lookup calt_f_end {
-\tlookupflag IgnoreMarks;
-\tignore sub @fRun f' @fRun;
-\tsub @fRun f' by f.caltEnd;
+	lookupflag IgnoreMarks;
+	ignore sub @fRun f' @fRun;
+	sub @fRun f' by f.caltEnd;
 } calt_f_end;
 lookup calt_f_init {
-\tlookupflag IgnoreMarks;
-\tignore sub @fRun f';
-\tsub f' @fRun by f.caltInit;
+	lookupflag IgnoreMarks;
+	ignore sub @fRun f';
+	sub f' @fRun by f.caltInit;
 } calt_f_init;
 
 lookup calt_o_mid {
-\tlookupflag IgnoreMarks;
-\tsub @oRun o' @oRun by o.caltMid;
+	lookupflag IgnoreMarks;
+	sub @oRun o' @oRun by o.caltMid;
 } calt_o_mid;
 lookup calt_o_end {
-\tlookupflag IgnoreMarks;
-\tignore sub @oRun o' @oRun;
-\tsub @oRun o' by o.caltEnd;
+	lookupflag IgnoreMarks;
+	ignore sub @oRun o' @oRun;
+	sub @oRun o' by o.caltEnd;
 } calt_o_end;
 lookup calt_o_init {
-\tlookupflag IgnoreMarks;
-\tignore sub @oRun o';
-\tsub o' @oRun by o.caltInit;
+	lookupflag IgnoreMarks;
+	ignore sub @oRun o';
+	sub o' @oRun by o.caltInit;
 } calt_o_init;
 
 lookup calt_t_mid {
-\tlookupflag IgnoreMarks;
-\tsub @tRun t' @tRun by t.caltMid;
+	lookupflag IgnoreMarks;
+	sub @tRun t' @tRun by t.caltMid;
 } calt_t_mid;
 lookup calt_t_end {
-\tlookupflag IgnoreMarks;
-\tignore sub @tRun t' @tRun;
-\tsub @tRun t' by t.caltEnd;
+	lookupflag IgnoreMarks;
+	ignore sub @tRun t' @tRun;
+	sub @tRun t' by t.caltEnd;
 } calt_t_end;
 lookup calt_t_init {
-\tlookupflag IgnoreMarks;
-\tignore sub @tRun t';
-\tsub t' @tRun by t.caltInit;
+	lookupflag IgnoreMarks;
+	ignore sub @tRun t';
+	sub t' @tRun by t.caltInit;
 } calt_t_init;
 ";
 tag = calt;
