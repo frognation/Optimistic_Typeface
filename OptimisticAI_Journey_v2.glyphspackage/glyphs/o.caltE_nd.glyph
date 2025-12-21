@@ -6,6 +6,7 @@ layerId = m001;
 shapes = (
 {
 attr = {
+lineCapEnd = 2;
 lineCapStart = 2;
 strokeHeight = 180;
 strokeWidth = 196;
@@ -30,9 +31,9 @@ nodes = (
 (271,221,o),
 (490,151,cs),
 (737,72,o),
-(1071,72,o),
+(1071,64,o),
 (1212,72,cs),
-(1703,72,l)
+(1727,103,l)
 );
 }
 );

@@ -7,6 +7,12 @@ https://www.allcapstype.com/typefaces/youth
 LT foundry
 https://lineto.com/typefaces/kristall
 
+
+**Visa Type**
 This is the latest Visa typeface we are working on with Displaay... No pressure but if you have any thoughts LMK 
-!![https://custom.displaay.net/?project=v-sans](https://custom.displaay.net/?project=v-sans)  
-pw: BaseDesign
+- ![https://custom.displaay.net/?project=v-sans](https://custom.displaay.net/?project=v-sans)
+- pw: BaseDesign
+![[VSansBETA20251216VF.ttf]]![[Screenshot 2025-12-20 at 1.26.18 PM.png]]
+Santype- Memory
+https://santypefoundry.framer.website/memory
+
