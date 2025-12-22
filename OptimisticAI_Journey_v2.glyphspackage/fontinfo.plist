@@ -540,6 +540,12 @@ code = "  sub A by A.alt;
   sub Q by Q.alt;
   sub R by R.alt;
   sub W by W.alt;";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss01;
 },
 {
