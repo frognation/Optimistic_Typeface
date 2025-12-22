@@ -1,0 +1,20 @@
+{
+glyphname = gravecomb.cap;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-58,1520,l),
+(-303,1838,l),
+(-51,1838,l),
+(147,1520,l)
+);
+}
+);
+width = 0;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = Rcaron;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (630,0);
+ref = uni030C.cap;
+}
+);
+width = 1249;
+}
+);
+unicode = 344;
+}

@@ -1,0 +1,23 @@
+{
+glyphname = uniFB03;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = f_f;
+},
+{
+pos = (1339,0);
+ref = dotlessi;
+},
+{
+pos = (1544,0);
+ref = uni0307;
+}
+);
+width = 1750;
+}
+);
+unicode = 64259;
+}

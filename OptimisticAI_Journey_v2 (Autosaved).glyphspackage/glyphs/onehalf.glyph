@@ -1,0 +1,23 @@
+{
+glyphname = onehalf;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = one.dnom;
+},
+{
+pos = (547,0);
+ref = fraction;
+},
+{
+pos = (857,0);
+ref = two.dnom;
+}
+);
+width = 1596;
+}
+);
+unicode = 189;
+}

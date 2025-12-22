@@ -1,0 +1,69 @@
+{
+glyphname = o.caltInit;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+attr = {
+lineCapEnd = 2;
+lineCapStart = 2;
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(1203,16,l),
+(1058,16,ls),
+(849,16,o),
+(720,22,o),
+(501,44,cs),
+(332,61,o),
+(153,243,o),
+(153,518,cs),
+(153,748,o),
+(316,949,o),
+(557,949,cs),
+(797,949,o),
+(976,748,o),
+(976,522,cs),
+(976,368,o),
+(858,-9,o),
+(501,44,cs)
+);
+}
+);
+width = 1111;
+},
+{
+associatedMasterId = m001;
+layerId = "68F4E7FD-439F-4DA4-99C5-5E71A16BFC91";
+name = Background;
+shapes = (
+{
+attr = {
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 1;
+nodes = (
+(322,66,o),
+(153,215,o),
+(153,506,cs),
+(153,785,o),
+(316,949,o),
+(557,949,cs),
+(797,949,o),
+(961,785,o),
+(961,506,cs),
+(961,215,o),
+(791,66,o),
+(557,66,cs)
+);
+}
+);
+visible = 1;
+width = 1111;
+}
+);
+}

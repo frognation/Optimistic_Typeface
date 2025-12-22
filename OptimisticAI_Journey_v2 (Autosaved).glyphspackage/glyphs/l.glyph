@@ -1,0 +1,61 @@
+{
+glyphname = l;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+attr = {
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(206,1461,l),
+(206,0,ls)
+);
+}
+);
+width = 411;
+},
+{
+associatedMasterId = m001;
+layerId = "FC7EB2F5-1ECE-40BA-A840-A8BE8FA8C5F6";
+name = Stroke;
+shapes = (
+{
+attr = {
+strokeHeight = 180;
+strokeWidth = 196;
+};
+closed = 0;
+nodes = (
+(206,1461,l),
+(206,0,ls)
+);
+}
+);
+visible = 1;
+width = 411;
+},
+{
+associatedMasterId = m001;
+layerId = "5B50C656-8A8A-43ED-80BE-6CB17600D795";
+name = Background;
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,1460,l),
+(312,0,l),
+(99,0,l),
+(99,1460,l)
+);
+}
+);
+visible = 1;
+width = 411;
+}
+);
+unicode = 108;
+}

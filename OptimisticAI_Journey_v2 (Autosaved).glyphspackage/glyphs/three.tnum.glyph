@@ -1,0 +1,14 @@
+{
+glyphname = three.tnum;
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = three;
+}
+);
+width = 1194;
+}
+);
+}
